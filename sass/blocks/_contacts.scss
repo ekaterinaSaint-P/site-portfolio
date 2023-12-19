@@ -1,0 +1,137 @@
+.contacts {
+  padding-top: 70px;
+  padding-bottom: 90px;
+  background: linear-gradient(0deg, #f5fbff 0%, #f5fbff 100%), #f4f8f9;
+  overflow: hidden;
+
+  /* Tablet */
+  @media (max-width: 1139px) {
+    padding-top: 40px;
+    padding-bottom: 70px;
+  }
+  /* Mobile */
+  @media (max-width: 899px) {
+    padding-bottom: 40px;
+  }
+}
+
+.contacts__title {
+  text-align: center;
+  margin-bottom: 60px;
+  /* Tablet */
+  @media (max-width: 1139px) {
+    margin-bottom: 40px;
+  }
+  /* Mobile */
+  @media (max-width: 899px) {
+    margin-bottom: 20px;
+  }
+}
+
+.contacts__column {
+  display: flex;
+  justify-content: space-between;
+
+  /* Mobile XS */
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
+}
+
+.contacts__item-list li:not(:last-child) {
+
+  /* Mobile */
+  @media (max-width: 899px) {
+ 
+  }
+}
+
+.contacts__item-list li {
+  align-items: center;
+}
+.contacts__item {
+  span {
+    min-width: 200px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.6;
+
+    /* Tablet */
+    @media (max-width: 1139px) {
+      font-size: 18px;
+    }
+    /* Mobile */
+    @media (max-width: 899px) {
+      font-size: 16px;
+    }
+  }
+  ul {
+    margin-bottom: 34px;
+    /* Mobile */
+    @media (max-width: 899px) {
+      margin-bottom: 27px;
+    }
+  }
+
+  li {
+    display: flex;
+    /* Mobile */
+    @media (max-width: 899px) {
+      flex-direction: column;
+      align-items: start;
+    }
+  }
+}
+
+.contacts__item .link {
+  /* Mobile */
+  @media (max-width: 899px) {
+    font-size: 16px;
+  }
+}
+
+.contacts__desc {
+  position: relative;
+  width: 538px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+
+  /* Tablet */
+  @media (max-width: 1139px) {
+    font-size: 16px;
+    width: 420px;
+  }
+  /* Mobile */
+  @media (max-width: 899px) {
+    font-size: 14px;
+    width: 290px;
+  }
+  /* Mobile XS */
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.contacts__desc-mob {
+  display: none;
+
+  /* Mobile XS */
+  @media (max-width: 767px) {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 14px;
+    width: 290px;
+  }
+}
+
+.contacts__quotes {
+  position: absolute;
+  top: -50px;
+  left: -120px;
+
+  /* Mobile */
+  @media (max-width: 899px) {
+    display: none;
+  }
+}

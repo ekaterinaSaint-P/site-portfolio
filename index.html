@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- encoding -->
+    <meta charset="UTF-8" />
+    <!-- Mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title and SEO -->
+    <title>Портфолио</title>
+    <meta name="description" content="Описание страницы" />
+    <meta name="keywords" content="ключевые слова, фразы" />
+
+    <!-- fancybox -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- Open Graph -->
+    <!-- <meta property="og:url" content="https://webcademy.ru/" /> -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Туристическое агентство Форест Тревел" />
+    <meta property="og:description" content="Турпоходы по дикой природе" />
+    <meta property="og:image" content="./img/opengraph.jpg" />
+
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicons -->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="./img/favicon/site.webmanifest">
+		<link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#1a60cf">
+		<link rel="shortcut icon" href="./img/favicon/favicon.ico">
+		<meta name="msapplication-TileColor" content="#00aba9">
+		<meta name="msapplication-config" content="./img/favicon/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff"> -->
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top__nav">
+            <nav class="nav">
+              <a href="#skills">Skills</a>
+              <a href="#portfolio">Portfolio</a>
+              <a href="#hw">How I work</a>
+              <a href="#mycontacts">Contacts</a>
+            </nav>
+            <div class="logo">
+              <p>HTML</p>
+            </div>
+
+            <!-- бургер меню-->
+            <div class="nav-icon">
+              <div class="nav-icon__middle"></div>
+            </div>
+
+            <div class="menu-cross">
+              <div class="menu-cross__content">
+                <ul>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#hw">How I work</a></li>
+                  <li><a href="#mycontacts">Contacts</a></li>
+                </ul>
+
+                <div class="menu-cross__contacts">
+                  <div class="socials">
+                    <a href=""
+                      ><img
+                        src="./img/soucial-icons/telegram.png"
+                        alt="telegram"
+                      />
+                    </a>
+
+                    <a href=""
+                      ><img src="./img/soucial-icons/vk.png" alt="vk" />
+                    </a>
+                    <a href=""
+                      ><img
+                        src="./img/soucial-icons/whatsapp.png"
+                        alt="whatsapp"
+                      />
+                    </a>
+                    <a href="">
+                      <img
+                        src="./img/soucial-icons/instagram.png"
+                        alt="instagram"
+                    /></a>
+                  </div>
+                  <div class="email-link">
+                    <a class="link" href="mailto:ekaterina070@gmail.com"
+                      >sample@gmail.com</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- ------ -->
+            </div>
+            <div class="header-top__icons">
+              <img
+                class="header-top__icons-li"
+                src="./img/hedear-icons/linkedin.svg"
+                alt="linkedin"
+              />
+
+              <img
+                class="header-top__icons-cat"
+                src="./img/hedear-icons/cat-icon.svg"
+                alt="cat"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-center">
+        <div class="container">
+          <div class="header-center__row">
+            <div class="header__content">
+              <div class="header__content-headline">
+                <h1 class="headline line">Your Name</h1>
+              </div>
+
+              <div class="header__content-desc">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quia quo et tenetur quam error repellendus nisi, minus maxime debitis accusantium culpa veritatis rerum praesentium velit consequuntur eius natus fuga.
+                </p>
+              </div>
+              <div class="btn">
+                <a href="#skills" class="button">Read more</a>
+                <a href="#contacts" class="button button--outline">Contacts</a>
+              </div>
+            </div>
+            <div class="header-center__img">
+              <img src="./img/header/header-img.png" alt="laptop" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-center__mobile">
+        <div class="container">
+          <div class="header-center__row">
+            <div class="header__content">
+              <div class="header__content-headline">
+                <h1 class="headline line">Your Name</h1>
+              </div>
+              <div class="header-center__img">
+                <img src="./img/header/header-img.png" alt="laptop" />
+              </div>
+              <div class="header__content-desc">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci maxime architecto voluptas veritatis, sint nostrum eligendi doloremque quidem ratione atque voluptates possimus, aut ex repellat et, necessitatibus temporibus quibusdam! Quam!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__baner">
+        <img
+          class="header__baner-img"
+          src="./img/header/Header-baner.png"
+          alt="baner"
+        />
+      </div>
+
+      <div class="skills" id="skills">
+        <div class="container">
+          <div class="skills__wrapper">
+            <div class="skills__info">
+              <div class="subtitle">
+                <h3>My skills</h3>
+              </div>
+              <div class="skills__list">
+                <ul>
+                  <li class="skills__list-item">
+                   Lorem, ipsum dolor.
+                  </li>
+                  <li class="skills__list-item"> Lorem, ipsum dolor.</li>
+                  <li class="skills__list-item">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </li>
+                  <li class="skills__list-item">
+                   Lorem ipsum dolor sit.
+                  </li>
+                  <li class="skills__list-item">Lorem, ipsum.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="skills__connection">
+              <div class="subtitle">
+                <h3>Connection</h3>
+              </div>
+              <div class="contacts__item">
+                <ul class="contacts__item-list">
+                  <li>
+                    <span>Email</span>
+                    <a class="link" href="mailto:ekaterina070@gmail.com"
+                      >sample@gmail.com</a
+                    >
+                  </li>
+                  <li>
+                    <span>Phone</span>
+                    <a class="link" href="tel:89045135668">8921555555</a>
+                  </li>
+                </ul>
+                <div class="socials">
+                  <a href=""
+                    ><img src="./img/soucial-icons/telegram.png" alt="telegram" />
+                  </a>
+      
+                  <a href=""><img src="./img/soucial-icons/vk.png" alt="vk" /> </a>
+                  <a href=""
+                    ><img src="./img/soucial-icons/whatsapp.png" alt="whatsapp" />
+                  </a>
+                  <a href="">
+                    <img src="./img/soucial-icons/instagram.png" alt="instagram"
+                  /></a>
+                </div>
+              </div>
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="portfolio__title">
+          <h2 class="title line line--s">Portfolio</h2>
+        </div>
+
+        <div class="mix-block">
+          <div class="mix-block__btn">
+            <button type="button" data-filter="all">All</button>
+            <button type="button" data-filter=".html">HTML</button>
+            <button type="button" data-filter=".wpress">JavaScript</button>
+          </div>
+
+          <div class="portfolio__wrapper" id="mix-cards">
+            <div>
+              <div class="card card--big mix html">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="card__img"
+                >
+                  <img src="./img/portfolio/HEADER.png" alt="foresttravel" />
+                  <span>See the project</span>
+                </a>
+
+                <div class="card__desc">
+                  <a
+                    data-fancybox
+                    href="#"
+                    class="card__desc-title"
+                    >Lorem, ipsum. “Example”</a
+                  >
+                  <p class="card__desc-subtitle">
+                    Lorem, ipsum dolor
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card--big mix html">
+              <div>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="card__img"
+                >
+                  <img
+                    src="./img/portfolio/HEADERforesr.jpg"
+                    alt="foresttravel"
+                  />
+                  <span>See the project</span>
+                </a>
+
+                <div class="card__title">
+                  <a
+                    data-fancybox
+                    href="#"
+                    class="card__desc-title"
+                    >Lorem, ipsum. “Example”</a
+                  >
+                  <p class="card__desc-subtitle">
+                    Lorem, ipsum dolor
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mix wpress">
+              <a href="#" target="_blank">
+                <div class="card__img">
+                  <img src="./img/portfolio/img-2.png" alt="unit" />
+                  <span>See the project</span>
+                </div>
+
+                <div class="card__title">
+                  <h4 class="card__desc-title">Lorem, ipsum. “Example”</h4>
+                  <p class="card__desc-subtitle">Lorem, ipsum dolor</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="card mix wpress">
+              <a href="#" target="_blank">
+                <div class="card__img">
+                  <img src="./img/portfolio/img-2.png" alt="unit" />
+                  <span>See the project</span>
+                </div>
+                <div class="card__title">
+                  <h4 class="card__desc-title">Lorem, ipsum. “Example”</h4>
+                  <p class="card__desc-subtitle">
+                    Lorem, ipsum dolor
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="card mix">
+              <a href="#" target="_blank">
+                <div class="card__img">
+                  <img src="./img/portfolio/img-2.png" alt="unit" />
+                  <span>See the project</span>
+                </div>
+                <div class="card__title">
+                  <h4 class="card__desc-title">Lorem, ipsum. “Example”</h4>
+                  <p class="card__desc-subtitle">
+                    Lorem, ipsum dolor
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="card mix html">
+              <a href="#" target="_blank">
+                <div class="card__img">
+                  <img src="./img/portfolio/img-2.png" alt="unit" />
+                  <span>See the project</span>
+                </div>
+                <div class="card__title">
+                  <h4 class="card__desc-title">Lorem, ipsum. “Example”</h4>
+                  <p class="card__desc-subtitle">
+                    Lorem, ipsum dolor
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-hw" id="hw">
+      <div class="container">
+        <div class="timeline__title">
+          <h2 class="title line line--s">How I work</h2>
+        </div>
+        <div class="timeline-wrapper">
+          <div class="timeline-item">
+            <h4 class="line line--xs">Lorem, ipsum</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro!</p>
+            <span>Time: 2 - 4 hours</span>
+          </div>
+          <div class="timeline-item">
+            <h4 class="line line--xs">Lorem ipsum dolor sit.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, mollitia?
+            </p>
+            <span>Time: 2 - 4 hours</span>
+          </div>
+          <div class="timeline-item">
+            <h4 class="line line--xs">Lorem ipsum dolor sit amet.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis nisi molestias esse deleniti numquam reiciendis consectetur commodi?
+            </p>
+          </div>
+          <div class="timeline-item">
+            <h4 class="line line--xs">Lorem, ipsum dolor.</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <h4 class="line line--xs">Lorem, ipsum dolor.</h4>
+            <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum magni eius!
+            </p>
+            <span>Time: 2 - 4 hours</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts" id="mycontacts">
+      <div class="container">
+        <div class="contacts__title">
+          <h2 class="title line line--s"  id="contacts">Contacts</h2>
+        </div>
+
+        <div class="contacts__column">
+          <div class="contacts__desc-mob">
+            <p>
+              Если вы ищите специалиста по верстке сайтов или frontend
+              разработчика в команду для работы над проектом — напишите мне.
+            </p>
+          </div>
+
+          <div class="contacts__links">
+            <div class="contacts__desc">
+              <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti neque placeat culpa blanditiis veniam voluptate enim beatae deserunt aspernatur, deleniti minima quisquam cumque amet dicta? Quae corrupti eos cumque dignissimos.
+              </p>
+              <img
+                class="contacts__quotes"
+                src="./img/contacts/contacts-bg.png"
+                alt="quotes"
+              />
+            </div>
+          </div>
+          <div class="contacts__item">
+            <ul class="contacts__item-list">
+              <li>
+                <span>Email</span>
+                <a class="link" href="mailto:ekaterina070@gmail.com"
+                  >sample@gmail.com</a
+                >
+              </li>
+              <li>
+                <span>Phone</span>
+                <a class="link" href="tel:89045135668">8921555555</a>
+              </li>
+            </ul>
+            <div class="socials">
+              <a href=""
+                ><img src="./img/soucial-icons/telegram.png" alt="telegram" />
+              </a>
+  
+              <a href=""><img src="./img/soucial-icons/vk.png" alt="vk" /> </a>
+              <a href=""
+                ><img src="./img/soucial-icons/whatsapp.png" alt="whatsapp" />
+              </a>
+              <a href="">
+                <img src="./img/soucial-icons/instagram.png" alt="instagram"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__desc">
+          <p><span> &copy;</span> 2020 — John Doe</p>
+          <p>
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda harum quaerat libero saepe fugit tempora dolore deserunt, cupiditate accusamus praesentium nesciunt, sunt nihil reiciendis sint velit provident qui temporibus minima.
+          </p>
+
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero laudantium ipsa culpa dicta. Deleniti eveniet porro sunt quam ipsam ullam facilis nulla reprehenderit quod quae provident possimus, tempore maxime expedita.
+        
+          </p>
+        </div>
+      </div>
+    </footer>
+    <a href="#top" class="backtop-btn" id="backtop">&#8679;</a>
+
+    <!-- jquery -->
+    <script src="./libs/jquery/code.jquery.com_jquery-3.7.0.min.js"></script>
+
+    <!-- fancebox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <!-- mixitup -->
+
+    <script src="./libs/mixitup/mixitup.min.js"></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

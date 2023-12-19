@@ -1,0 +1,166 @@
+.line {
+  display: inline;
+  background-repeat: no-repeat;
+  background-position: center bottom 15px;
+  background-size: 100% 12px;
+  background-image: linear-gradient(to right, #fbdc4d, #fbdc4d);
+
+  /* Tablet */
+  @media (max-width:1139px) {
+    background-position: center bottom 10px;
+    background-size: 100% 10px;
+  }
+
+  /* Mobile */
+  @media (max-width: 899px) {
+    background-position: center bottom 8px;
+    background-size: 100% 8px;
+    
+  }
+
+  /* Mobile XS */
+  @media (max-width: 767px) {
+    background-position: center bottom 6px;
+    background-size: 100% 8px;
+    
+    
+  }
+}
+
+.line--s {
+  background-position: center bottom 6px;
+  background-size: 100% 8px;
+
+  /* Tablet */
+  @media (max-width: 1139px) {
+    background-position: center bottom 4px;
+  }
+
+  /* Mobile */
+  @media (max-width: 899px) {
+    background-position: center bottom 3px;
+  }
+}
+.line--xs {
+  background-position: center bottom 10px;
+  background-size: 100% 6px;
+  /* Tablet */
+  @media (max-width: 1139px) {
+    background-position: center bottom 8px;
+    
+  }
+  
+}
+
+.title {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 1.3;
+
+  /* Tablet */
+  @media (max-width: 1139px) {
+    font-size: 42px;
+  }
+  /* Mobile */
+  @media (max-width: 899px) {
+    font-size: 32px;
+  }
+}
+
+
+
+.button {
+  padding: 19px 40px;
+  margin-right: 20px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+  background: #fbdc4d;
+
+  &:hover,:focus{
+    background: #FFEB8D;
+  }
+  :active{
+    background: #F5D22D;
+  }
+
+  /* Tablet */
+  @media (max-width: 1139px) {
+    padding: 16px 26px;
+  }
+}
+
+.button--outline {
+  background: #eff7fc;
+  margin-right: 0;
+  &:hover,:focus{
+    background: #D1EDFF;
+  }
+  :active{
+    background: #B0DCF8;
+  }
+}
+
+.btn {
+  /* Mobile */
+  @media (max-width: 899px) {
+    display: none;
+  }
+}
+
+
+.socials {
+  display: flex;
+
+}
+.socials img {
+  width: 40px;
+  height: 40px;
+  &:hover{
+    opacity: 0.75;
+  }
+
+  /* Mobile */
+  @media (max-width: 899px) {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+.socials a:not(:last-child) {
+  margin-right: 30px;
+}
+
+
+
+.email-link {
+  margin-top: 20px;
+}
+
+.link {
+  color: #1a71d2;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.3;
+
+  &:hover{
+   color: #FF543E;
+  }
+
+  /* Tablet */
+  @media (max-width: 1139px) {
+    font-size: 18px;
+  }
+}
+
+
+.backtop-btn{
+  position: fixed;
+font-size: 50px;
+  bottom: 20px;
+  right: 50px;
+  z-index: 100;
+  color: black!important;
+  display: inline-block;
+}
